@@ -4,7 +4,7 @@ version: 1.0.7
 readme: README.md
 authors:
 - SRE <sre@pichincha.com>
-description: 'Esta colleción se encarga de la automatización de tareas de monitoreo/readiness para plataformas y applicaciones Windows, Unix, F5.'
+description: 'Esta colleción se encarga de la automatización de tareas de monitoreo/readiness para Servicios, Application pools, Servicios iis y aplicaciones Web basadas en plataformas Windows Server.'
 license:
 - GPL-2.0-or-later
 tags:
@@ -13,6 +13,7 @@ tags:
 dependencies:
   community.windows: '>=2.3.0'
   ansible.windows: '>=2.7.0'
+  community.general: '>=10.4.0'
 repository: http://example.com/repository
 homepage: http://example.com
 issues: http://example.com/issue/tracker
